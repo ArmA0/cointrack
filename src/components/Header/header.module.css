@@ -1,0 +1,29 @@
+.header {
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0;
+    height: 80px;
+    background: #212834;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.14);
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+.navbar {
+    /* position: absolute; */
+    margin: auto;
+    width: 50%;
+    padding-top: 11px;
+}
+
+.signIn {
+    position: absolute;
+    left: 70%;
+    top: 9%
+}

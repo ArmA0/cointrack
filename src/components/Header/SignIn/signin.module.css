@@ -1,0 +1,20 @@
+.signinWrap {
+    text-align: center;
+    margin: auto;
+    position: relative;
+
+}
+
+.p {
+    display: inline-block;
+    color: #A588E7;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.signupBTN{ 
+    display: inline-block;
+    margin-left: 50px;
+}

@@ -1,0 +1,23 @@
+.logoWrap {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    width: 41.3px;
+    height: 41.22px;
+}
+
+.p {
+    top: -29.2px;
+    left: 13.7px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 42px;
+    color: #C64DFF
+}
+.p > .span {
+    color: #5082FC 
+}

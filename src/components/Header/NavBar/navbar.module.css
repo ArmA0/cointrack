@@ -1,0 +1,16 @@
+.ul {
+    float: left;
+    list-style: none;
+}
+
+.ul > a {
+    color: white;
+    text-decoration: none;
+}
+
+.ul > a > li {
+    font-weight: 800;
+    font-size: 18px;
+    display: inline;
+    margin-left: 20%;
+}

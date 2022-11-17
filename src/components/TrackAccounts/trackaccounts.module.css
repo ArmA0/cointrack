@@ -1,0 +1,18 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1E2634;
+}
+.head {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+
+    position: absolute;
+    width: 1241px;
+    height: 64px;
+    left: 341px;
+    top: 1060.01px;
+}
