@@ -25,8 +25,6 @@ const marketSlice = createSlice({
         }
     }
 })
-console.log(marketSlice.reducer);
-debugger
 
 export const { isLoading, setMarketData, setMarketError } = marketSlice.actions
 
