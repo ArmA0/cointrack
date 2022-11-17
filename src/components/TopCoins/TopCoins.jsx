@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../helpers/Button/Button';
 import c from './topcoins.module.css'
 import building from '../../images/building.png'
+import CardsContainer from './Cards/CardsContainer';
 
 class TopCoins extends React.Component {
     constructor(props) {
@@ -17,6 +18,7 @@ class TopCoins extends React.Component {
                     <Button text='Start Tracking' />
                 </div>
                 <img src={building} alt="building" className={c.building} />
+                <CardsContainer />
             </div>
          );
     }

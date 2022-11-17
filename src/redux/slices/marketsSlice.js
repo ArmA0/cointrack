@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit"
 
 
-const init_state = {
+const initialState = {
     marketData: [],
     loading: false,
     errorMessage: '',
@@ -10,7 +10,7 @@ const init_state = {
 
 const marketSlice = createSlice({
     name: 'market',
-    init_state,
+    initialState,
     reducers: {
         isLoading: state => {
             state.loading = true
@@ -28,4 +28,4 @@ const marketSlice = createSlice({
 
 export const { isLoading, setMarketData, setMarketError } = marketSlice.actions
 
-export default marketSlice.reducer
+export default marketSlice

@@ -1,7 +1,7 @@
 import React from 'react';
 import c from './cards.module.css'
 
-class Cards extends Component {
+class Cards extends React.Component {
     constructor(props) {
         super(props);
     }

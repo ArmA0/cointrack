@@ -10,9 +10,7 @@ class CardsContainer extends Component {
 
     render() { 
         return (
-            <>
             <Cards />
-            </>
         );
     }
 }
