@@ -1,0 +1,85 @@
+.cardWrapper {
+    
+}
+
+.imgLogo {
+    position: absolute;
+    top: 39.83px;
+    left: 18.21px;
+    width: 59px;
+    height: 59px;
+}
+
+.coinName {
+    position: absolute;
+    left: 88.77px;
+    right: 105.71px;
+    top: 31.87px;
+    bottom: 234.31px;
+
+    font-weight: 400;
+    font-size: 27.3142px;
+    line-height: 32px;
+    color: #C5C9F0;
+}
+
+.currentPrice {
+    position: absolute;
+    left: 88.77px;
+    top: 63.73px;
+
+    font-weight: 500;
+    font-size: 27.3142px;
+    line-height: 33px;
+    
+    color: #C5C9F0;
+}
+
+.priceChangeInPercent {
+    position: absolute;
+    top: 71.69px;
+    right: 16.28px;
+    bottom: 207.49px;
+    left: 224.21px;
+
+    font-weight: 400;
+    font-size: 15.9333px;
+    line-height: 19px;
+}
+
+.up {
+    color: #49D76C
+}
+
+.down {
+    color: red
+}
+
+.still {
+    color: #C5C9F0
+}
+
+.priceChange {
+    position: absolute;
+    top: 102.43px;
+    right: 124.71px;
+    bottom: 170.75px;
+    left: 88.77px;
+    
+    font-weight: 500;
+    font-size: 20.4856px;
+    line-height: 25px;
+}
+
+.last24h {
+    position: absolute;
+    top: 84.28px;
+    right: 29.43px;
+    bottom: 172.89px;
+    left: 190.06px;
+    width: 100%;
+
+    font-weight: 400;
+    font-size: 20.4856px;
+    color: #C5C9F0;
+}

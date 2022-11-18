@@ -18,7 +18,7 @@ class TopCoins extends React.Component {
                     <Button text='Start Tracking' />
                 </div>
                 <img src={building} alt="building" className={c.building} />
-                <CardsContainer />
+                <div className={c.cardsContainer}><CardsContainer /></div>
             </div>
          );
     }

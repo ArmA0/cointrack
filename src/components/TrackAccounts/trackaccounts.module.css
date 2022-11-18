@@ -16,3 +16,26 @@
     left: 341px;
     top: 1060.01px;
 }
+
+.items {
+    position: absolute;
+    left: 209.3px;
+    top: 1261.07px;
+}
+
+.items div {
+    margin-bottom: 40px;
+}
+
+.items p {
+    font-weight: 400;
+    font-size: 26px;
+    display: inline-block;
+    
+    color: #FFFFFF;
+    
+}
+
+.items div, .items p {
+
+}
