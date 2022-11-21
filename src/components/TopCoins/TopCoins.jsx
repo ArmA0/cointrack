@@ -5,10 +5,6 @@ import building from '../../images/building.png'
 import CardsContainer from './Cards/CardsContainer';
 
 class TopCoins extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-    state = {  }
     render() { 
         return ( 
             <div className={c.wrapper}>

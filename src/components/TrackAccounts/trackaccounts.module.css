@@ -31,11 +31,19 @@
     font-weight: 400;
     font-size: 26px;
     display: inline-block;
-    
+    margin-left: 5px;
     color: #FFFFFF;
     
 }
 
 .items div, .items p {
 
+}
+
+.trackCoins {
+    position: absolute;
+    width: 775.92px;
+    height: 508.53px;
+    left: 936.94px;
+    top: 1252.94px;
 }

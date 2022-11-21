@@ -16,7 +16,7 @@ const chartSlice = createSlice({
             state.loading = true
         },
         setChartData: (state, action) => {
-            state.chartData = action.payload
+            state.chartData = [...state.chartData, {data: action.payload.prices, coin: action.payload.coin }]
             state.loading = false
         },
         setChartError: (state, action) => {

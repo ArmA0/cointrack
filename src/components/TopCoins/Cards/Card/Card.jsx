@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import c from './card.module.css'
 import Chart from './Chart/Chart';
+import ChartContainer from './Chart/ChartContainer';
 class Card extends Component {   
 
     render() {
@@ -19,9 +20,8 @@ class Card extends Component {
         const conditionalClassnames = ` 
                 ${priceRise === 'up' ? c.up : ''}
                 ${priceRise === 'down' ? c.down : ''}
-                ${priceRise === 'still' ? c.still : ''}`
-
-
+                ${priceRise === 'still' ? c.still : ''}
+                `
         return <div className={c.cardWrapper}>
             <img src={image} alt="coin logo" className={c.imgLogo} />
             <div className={c.coinName}>{this.props.name}</div>
@@ -33,7 +33,7 @@ class Card extends Component {
                 ${this.props.price_change_24h?.toFixed(2)}
             </div>
             <p className={c.last24h}>last 24h</p>
-            <Chart />
+            <ChartContainer marketData={this.props} />
         </div>;
     }
 }

@@ -5,6 +5,7 @@ import Track2 from '../../images/Track2.png'
 import Track3 from '../../images/Track3.png'
 import Track4 from '../../images/Track4.png'
 import Track5 from '../../images/Track5.png'
+import trackCoins from '../../images/trackCoins.png'
 
 class TrackAccounts extends React.Component {
     render() { 
@@ -33,6 +34,7 @@ class TrackAccounts extends React.Component {
                         <p>Push notifications</p>
                     </div>
                 </div>
+                <img className={c.trackCoins} src={trackCoins} alt='track crypto' />
             </div>
          );
     }

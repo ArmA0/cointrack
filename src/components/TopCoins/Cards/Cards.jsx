@@ -10,19 +10,17 @@ class Cards extends React.Component {
         // const errorMsg = this.props.errorMsg
         const marketData = this.props.marketData
         // console.log(marketData, 'MD');
-        console.log(loading, 'loading');
         loading && <div>Loading</div>
         return ( 
             <div className={c.upperWrapper}>
                 {marketData && marketData.map((item, index) => {
-                return <div key={index} className={c.wrapper}>
-                    <Card {...item} />
-                    </div>
-                }
-                    )
+                    return <div key={index} className={c.wrapper}>
+                                <Card {...item}/>
+                            </div>
+                    })
                 }
             </div>
-         );
+        );
     }
 }
  
