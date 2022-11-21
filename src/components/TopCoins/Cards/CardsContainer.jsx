@@ -25,8 +25,9 @@ class CardsContainer extends Component {
         let element = []
         for (let i = 0; i < 4 ; i++) {
             element[i] = marketData[i]
-            chartData?.map(item => {
+            chartData.map(item => {
                 if (item.coin === marketData[i].id){
+                    
                     // element[i].priceHistory = item.data
                     // Object.assign(element[i], {priceHistory: item.data})
                     // element[i].priceHistory = item.data
