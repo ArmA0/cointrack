@@ -15,16 +15,11 @@ class ChartContainer extends Component {
     
 
     render() { 
-        // console.log(this.props, 'container render');
-        let data = []
-        this.props.coins.chartData.filter(data => {
-            // console.log(data, 'sdasda');
-            if(data.coin === this.props.marketData.id) {
-                data = data.data
-            }
-        })
+        // console.log(this.props, 'Props');
+        const prices = []
+        this.props.coins.chartData.find(data => data.coin === this.props.marketData.id && prices.push(data.data))
         return (
-            <Chart pricedata={data} />
+            <Chart priceData={prices} />
         )
     }
 }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import c from './card.module.css'
-import Chart from './Chart/Chart';
 import ChartContainer from './Chart/ChartContainer';
 class Card extends Component {   
 
@@ -22,6 +21,7 @@ class Card extends Component {
                 ${priceRise === 'down' ? c.down : ''}
                 ${priceRise === 'still' ? c.still : ''}
                 `
+
         return <div className={c.cardWrapper}>
             <img src={image} alt="coin logo" className={c.imgLogo} />
             <div className={c.coinName}>{this.props.name}</div>

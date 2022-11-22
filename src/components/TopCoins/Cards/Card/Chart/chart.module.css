@@ -1,12 +1,9 @@
 .chart {
-    
-position: absolute;
-width: 293px;
-height: 143px;
-left: 0.01px;
-bottom: 2.58px;
-right: 0.52px;
-top: 158.16px;
-background: linear-gradient(180deg, #fb00e21f 0%, #1a202c1f 100%);
-color: #ff00e652
+    position: absolute;
+    width: 293px;
+    height: 143px;
+    left: 0.01px;
+    bottom: 2.58px;
+    right: 0.52px;
+    top: 158.16px;
 }
